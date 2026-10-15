@@ -1,0 +1,87 @@
+import type { ClubEvent } from '../types/ride';
+
+export const CLUB_EVENTS: ClubEvent[] = [
+  {
+    id: 'event-monsoon-tamhini-challenge',
+    title: 'Sahyadri Monsoon 120K Brevet Simulation',
+    type: 'Distance Challenge',
+    dateStr: 'Upcoming Sunday (Monthly)',
+    timeStr: '5:15 AM Rollout',
+    location: 'Chandani Chowk to Tamhini Pass & Return',
+    distanceKm: 120,
+    description:
+      'A non-competitive endurance brevet simulation testing endurance, nutrition timing, and wet Ghat riding under monitored conditions with support marshals.',
+    status: 'Registration Open',
+    fee: '₹250 (Support Van & Hydration)',
+    badge: 'Endurance Milestone',
+  },
+  {
+    id: 'event-sinhagad-kom-challenge',
+    title: 'Sinhagad Dawn King of the Mountain (KOM)',
+    type: 'Weekend Ride',
+    dateStr: 'Alternate Sunday Mornings',
+    timeStr: '5:30 AM Rollout',
+    location: 'Rajaram Bridge to Sinhagad Fort Summit',
+    distanceKm: 52,
+    description:
+      'Group roll to the foot of Sinhagad Fort, followed by individual timed ascent of the 8km mountain pass, regrouping for famous rustic Kanda Bhaji breakfast.',
+    status: 'Registration Open',
+    fee: 'Free (Fort toll ₹20 payable on-site)',
+    badge: 'Climbing Benchmark',
+  },
+  {
+    id: 'event-trailside-mechanics-workshop',
+    title: 'Trailside Bicycle Mechanics & M-Check Clinic',
+    type: 'Skills Workshop',
+    dateStr: 'First Saturday of Next Month',
+    timeStr: '4:30 PM – 6:30 PM',
+    location: 'Pedal Tribe Clubhouse Lawn, Senapati Bapat Road',
+    description:
+      'Hands-on practical masterclass: how to fix a snapped chain, plug a tubeless puncture, tune derailleurs, replace brake pads, and clean drivetrains.',
+    status: 'Filling Fast',
+    fee: 'Free for Community Members',
+    badge: 'Hands-on Clinic',
+  },
+  {
+    id: 'event-full-moon-night-tour',
+    title: 'Full Moon Pune Heritage Night Ride',
+    type: 'Night Tour',
+    dateStr: 'Next Full Moon Weekend',
+    timeStr: '10:30 PM Rollout',
+    location: 'Shaniwar Wada Bastion to Camp & JM Road',
+    distanceKm: 32,
+    description:
+      'Experience Pune’s heritage landmarks under the moonlight with glowing high-lumen headlights, disciplined double paceline, and midnight chai.',
+    status: 'Registration Open',
+    fee: 'Free (Lights Strictly Inspected)',
+    badge: 'Urban Culture',
+  },
+  {
+    id: 'event-tour-de-mulshi-charity',
+    title: 'Tour de Mulshi Rural Schools Bicycle Drive',
+    type: 'Charity Ride',
+    dateStr: 'Annual Community Fixture (Illustrative)',
+    timeStr: '6:00 AM Rollout',
+    location: 'Chandani Chowk -> Paud Village High School',
+    distanceKm: 76,
+    description:
+      'Ride 76 scenic kilometers around Mulshi Lake to raise funds for bicycles and maintenance kits for children in remote Western Ghats villages.',
+    status: 'Illustrative Demo',
+    fee: 'Voluntary ₹500 Charity Contribution',
+    badge: 'Community Impact',
+  },
+  {
+    id: 'event-century-bhor-challenge',
+    title: 'Bhor & Varandha Imperial Century (160 km)',
+    type: 'Distance Challenge',
+    dateStr: 'Third Sunday of Every Month',
+    timeStr: '4:45 AM Rollout',
+    location: 'Swargate Stadium -> Bhor Palace & Dam',
+    distanceKm: 162,
+    description:
+      'Pune’s signature 100-mile endurance challenge across historical Bhor principality with dedicated mechanical support van, feed stations, and finisher medal.',
+    status: 'Filling Fast',
+    fee: '₹350 (Support Vehicle & Hot Lunch)',
+    badge: 'Century Finisher',
+  },
+];
