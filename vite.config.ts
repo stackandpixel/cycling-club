@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/cycling-club/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
