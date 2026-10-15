@@ -1,0 +1,6 @@
+{
+  "name": "Pedal Tribe India",
+  "description": "Pedal Tribe India - Premier Indian cycling community in Pune, Maharashtra. Weekend road rides, Western Ghats gravel tours, mountain biking trails, and cycling challenges. Ride Together. Go Further.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
